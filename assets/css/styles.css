@@ -9917,4 +9917,39 @@ header {
   height: 90vh;
 }
 
+.__titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 70pt;
+  font-style: italic;
+  padding-top: 30rem;
+}
+
+.__header-icon {
+  color: #fff;
+  font-size: 70pt;
+  margin-top: 15rem;
+}
+
+.nav_bg {
+  background-color: #121519;
+}
+
+.__nav-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #D76c69 !important;
+}
+
+.__nav-items {
+  padding-right: 8em;
+}
+
+.__nav-logo {
+  padding-left: 15em;
+}
+
 /*# sourceMappingURL=styles.css.map */

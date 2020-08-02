@@ -9,18 +9,46 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Barber Shop</title>
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav>
-
+    <div class="container-fluid m-0 p-0">
+         <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark nav_bg py-5 __nav-logo">
+        <img src="./assets/img/logo.png" alt="" width="110pt" class="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse __nav-text" id="navbarNav">
+            <ul class="navbar-nav ml-auto __nav-items">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">Nosotros </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Trabajos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Blog</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Horas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <!--Header-->
-    <header>
-
+    <header class="text-center">
+        <h1 class="__titulo text-white ">5 formas de cuidar <br> tu corte de cabello</h1>
+        <i class="fas fa-angle-double-down  __header-icon "></i>
     </header>
 
     <!--Article - text-->
@@ -45,6 +73,8 @@
 
     </footer>
 
+    </div>
+   
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

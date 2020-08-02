@@ -5,3 +5,16 @@ header{
     background-position: left;
     height: 90vh;
 }
+
+.__titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 70pt;
+    font-style: italic;
+    padding-top: 30rem;
+}
+
+.__header-icon{
+    color: $white;
+    font-size: 70pt;
+    margin-top: 15rem;
+}
