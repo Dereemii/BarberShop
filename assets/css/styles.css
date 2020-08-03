@@ -9923,8 +9923,10 @@ h1 {
 }
 
 .article__p {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 4rem;
+  margin: auto;
 }
 
 .article__day {
@@ -9951,13 +9953,13 @@ header {
 .__titulo {
   font-size: 70pt;
   font-style: italic;
-  padding-top: 30rem;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 .__header-icon {
   color: #fff;
   font-size: 70pt;
-  margin-top: 15rem;
 }
 
 .nav_bg {
@@ -9980,6 +9982,16 @@ header {
 
 .__nav-logo {
   padding-left: 100px;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 50px;
+  border: none;
+}
+
+.navbar-toggler {
+  border: #121519;
 }
 
 /*# sourceMappingURL=styles.css.map */

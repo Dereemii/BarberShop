@@ -3,8 +3,10 @@
 }
 
 .article__p{
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: $regular;
+    line-height: 4rem ;
+    margin: auto;
 }
 
 .article__day{
