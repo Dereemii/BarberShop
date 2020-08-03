@@ -9933,6 +9933,15 @@ h3 {
   font-weight: 300;
 }
 
+.boton-section {
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  background-color: #6C6E70;
+}
+
 .navigation {
   background-color: #E6E7E7;
 }
