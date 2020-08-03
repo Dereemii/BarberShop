@@ -4,12 +4,15 @@
 
 .article__p{
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .article__day{
-    font-family: 'Playfair Display', serif;
+    font-family: $playfair;
     font-size: 30px;
-    font-weight: 400;
+   
+}
+
+.article__p__a{
+    color: $Fuzzywuzzy;
 }

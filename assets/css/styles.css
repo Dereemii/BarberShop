@@ -9909,20 +9909,31 @@ h3 {
     border-color: #dee2e6;
   }
 }
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
 .article__container {
   background-color: white;
 }
 
 .article__p {
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
 .article__day {
   font-family: "Playfair Display", serif;
   font-size: 30px;
-  font-weight: 400;
+}
+
+.article__p__a {
+  color: #E56353;
 }
 
 .footer__container {
@@ -9938,7 +9949,6 @@ header {
 }
 
 .__titulo {
-  font-family: "Playfair Display", serif;
   font-size: 70pt;
   font-style: italic;
   padding-top: 30rem;
