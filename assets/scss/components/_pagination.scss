@@ -10,17 +10,19 @@
     font-family: $roboto;
     color:$Raisinblack;
 }
-
+.page-link:hover{
+    background-color:$Nickel;
+    color: $White;
+}
 .page-item:first-child .page-link{
     border-top-left-radius: 1.6rem;
     border-color: $Lightgray;
     border-bottom-left-radius: 1.6rem;
-
-
 }
 .page-item:last-child .page-link{
     border-top-right-radius: 1.6rem;
     border-color: $Lightgray;
     border-bottom-right-radius: 1.6rem;
-
 }
+
+
