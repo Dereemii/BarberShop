@@ -9911,11 +9911,30 @@ h3 {
 }
 p {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 4rem;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #121519;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h3 {
+  color: #D76c69;
+  font-weight: 300;
+}
+
+.navigation {
+  background-color: #E6E7E7;
 }
 
 .article__container {
@@ -9924,7 +9943,6 @@ h1 {
 
 .article__p {
   font-size: 20px;
-  font-weight: 300;
   line-height: 4rem;
   margin: auto;
 }
@@ -9992,6 +10010,11 @@ header {
 
 .navbar-toggler {
   border: #121519;
+}
+
+.naomi-text {
+  font-size: 20px;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,8 +1,23 @@
-p{
-    font-family: 'Roboto', sans-serif;
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: $regular;
+  line-height: 4rem ;
 }
 
-h1{
-    font-family: $playfair;
-    font-weight: $bold;
+h1 {
+  font-family: $playfair;
+  font-weight: $bold;
+}
+
+h2 {
+  font-family: $playfair;
+  color: $Eirieblack;
+  font-size: 40px;
+  font-weight: $bold;
+  font-style: $italic;
+}
+
+h3 {
+  color: $Ruddypink;
+  font-weight: $regular;
 }
