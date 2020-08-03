@@ -9946,6 +9946,27 @@ h3 {
   background-color: #E6E7E7;
 }
 
+.pagination {
+  font-size: 20px;
+}
+
+.page-item .page-link {
+  font-family: "Roboto", sans-serif;
+  color: #222323;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.6rem;
+  border-color: #D1D1D1;
+  border-bottom-left-radius: 1.6rem;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.6rem;
+  border-color: #D1D1D1;
+  border-bottom-right-radius: 1.6rem;
+}
+
 .article__container {
   background-color: white;
 }
@@ -10024,6 +10045,11 @@ header {
 .naomi-text {
   font-size: 20px;
   text-align: justify;
+}
+
+.naomi {
+  border-top: solid #D1D1D1 2px;
+  border-bottom: solid #D1D1D1 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
